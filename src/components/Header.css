@@ -1,0 +1,50 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark background for the header */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal; /* Normal weight for nav items */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff; /* Hover effect */
+  }
+  
+  .portfolio-title {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color: white; /* White color */
+    position: absolute;
+    left: 20px; /* Align to the left */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the text */
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Optional font customization */
+  }
+  
+  

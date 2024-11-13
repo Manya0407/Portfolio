@@ -1,0 +1,125 @@
+/* About Page Styling */
+.about {
+    background-color: #000000; /* Set background to black */
+    color: #ffffff; /* White text color */
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1a1a1a; /* Dark grey for content background */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light color for the title */
+    margin-bottom: 20px;
+  }
+  
+  .about-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .about-left {
+    width: 45%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  .about-right {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .about-left p {
+    margin-bottom: 20px;
+  }
+  
+  .about-right h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f39c12; /* Accent color for Skills subtitle */
+  }
+  
+  .skills-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .skill-icon {
+    font-size: 20px;
+    color: #dba634; /* Light blue for icons */
+    margin-bottom: 5px;
+  }
+  
+  .skill label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .bar {
+    height: 8px; /* Thinner bar height */
+    background-color: #a3d1eb;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(52, 152, 219, 0.6); /* Glowing effect */
+    position: relative;
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 80px; /* Move percentage label slightly lower */
+    right: 5px;
+    font-size: 10px; /* Smaller font for percentage */
+    color: #b0c4de;
+  }
+  
+  @media (max-width: 768px) {
+    .about-main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-left,
+    .about-right {
+      width: 80%; /* Adjust width for mobile */
+      margin-bottom: 30px;
+    }
+  
+    .about-title {
+      font-size: 30px;
+    }
+  
+    .about-left p {
+      font-size: 16px;
+    }
+  
+    .about-right h2 {
+      font-size: 24px;
+    }
+  
+    .skill label {
+      font-size: 16px;
+    }
+  }
+  
+  
